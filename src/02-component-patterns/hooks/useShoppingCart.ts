@@ -14,8 +14,6 @@ export const useShoppingCart = () => {
                 
                 const { [product.id]: toDelete, ...rest } = oldShoppingCart;
 
-                console.log({toDelete});
-                
                 return rest;
                 
             }
